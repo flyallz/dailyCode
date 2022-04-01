@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\APP\\nodejs\\node.exe',
+1 verbose cli   'D:\\APP\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.16.1
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle vue-playlist@1.0.0~predev: vue-playlist@1.0.0
+6 silly lifecycle vue-playlist@1.0.0~predev: no script for predev, continuing
+7 info lifecycle vue-playlist@1.0.0~dev: vue-playlist@1.0.0
+8 verbose lifecycle vue-playlist@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle vue-playlist@1.0.0~dev: PATH: D:\APP\nodejs\node_global\node_modules\npm\bin\node-gyp-bin;F:\项目\vue\vue-playlist\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\APP\Git\cmd;C:\ProgramData\chocolatey\bin;D:\APP\Server\Xshell\;D:\APP\Server\Xftp\;D:\APP\nodejs\node_global;D:\APP\MinGW\bin;D:\APP\mysql-8.0.28-winx64\bin;D:\APP\nodejs\;D:\APP\python\Scripts\;D:\APP\python\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.4\bin;D:\APP\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm
+10 verbose lifecycle vue-playlist@1.0.0~dev: CWD: F:\项目\vue\vue-playlist
+11 silly lifecycle vue-playlist@1.0.0~dev: Args: [
+11 silly lifecycle   '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --inline --progress --config build/webpack.dev.conf.js'
+11 silly lifecycle ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process/per_thread.js:196:13)
+12 verbose stack     at process.listener (D:\APP\nodejs\node_global\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at process.emit (events.js:323:22)
+13 verbose cwd F:\项目\vue\vue-playlist
+14 error Windows_NT 10.0.19042
+15 error argv "D:\\APP\\nodejs\\node.exe" "D:\\APP\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v12.16.1
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
